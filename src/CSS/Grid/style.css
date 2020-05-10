@@ -1,0 +1,25 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    background-color: black;
+    border: 10px solid yellowgreen;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+.grid-item {
+    border: 3px solid whitesmoke;
+    background-color: cadetblue;
+    padding: 20px;
+}
+.item-1 {
+     
+}
